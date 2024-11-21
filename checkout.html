@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Checkout</h1>
+    <div id="checkout-summary" class="checkout"></div>
+    <p>Total Harga: <span id="total"></span></p>
+    <button onclick="finalizeCheckout()">Selesaikan Pembayaran</button>
+    <button onclick="goToCart()">Kembali ke Keranjang</button>
+    <script src="script.js"></script>
+    <script>
+        checkout(); // Memperbarui tampilan checkout saat halaman dimuat
+    </script>
+</body>
+</html>

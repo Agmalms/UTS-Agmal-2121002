@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang Belanja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Keranjang Belanja</h1>
+    <div id="cart" class="cart"></div>
+    <p>Total Harga: <span id="total"></span></p>
+    <button onclick="goToCheckout()">Lanjut ke Checkout</button>
+    <button onclick="goToProductPage()">Kembali ke Produk</button>
+    <script src="script.js"></script>
+    <script>
+        updateCart(); // Memperbarui tampilan keranjang saat halaman dimuat
+    </script>
+</body>
+</html>
